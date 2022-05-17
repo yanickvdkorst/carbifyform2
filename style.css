@@ -1,0 +1,360 @@
+html {height: 100%;}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+*{
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 110%;
+    
+}
+#bar-above{
+background-color: #7BAD4C;
+height: 5px;
+}
+#front-above{
+height: 482px;
+background-image: url("/Images/free-blurred-web-backgrounds-04.jpg");
+
+padding-top: 160px;
+padding-left: 160px;
+padding-right: 15px;
+display: flex;
+
+}
+#Head{
+    font-size: 200%;
+}
+#download{
+    float: left;
+    padding: 11px;
+    font-weight: bold;
+    border: 2px solid #7BAD4C;
+    background-color: #7BAD4C;
+    color: #ffffff;
+    
+}
+#device{
+    background-color: #c6724E;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 3px 10px;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 70%;
+    display: inline-block;
+    margin-bottom: 5px;
+    
+   
+}
+#informatie{
+    margin-top: 25px;
+    color: #666666;
+    font-size: 100%;
+    margin-bottom: 40px;
+    width: 456px;
+}
+#afbeelding{
+    background-image: url(/Images/Devices_Nutrition.png); 
+  padding-left: 250px;
+   width: 431px;
+   background-image: url(/Images/telefoon\ png.png);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   height: 482px;
+
+   
+}
+
+#front-middle{
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#row-tekst{
+  font-size: 70%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #444442;
+  font-style: normal;
+}
+#headtext{
+  margin-bottom: 5px;
+}
+#front-end{
+    height: 75px;
+    background-color: #444442;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #7BAD4C;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #column1 {
+      float: left;
+      width: 33.3%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      justify-content: center;
+      display: flex;
+    flex-direction: column;
+    
+}
+#targets{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-image: url(/Images/target.JPG);
+    background-size: cover;
+    width: 94px;
+    height: 94px;
+    
+  }
+  #column2 {
+    float: left;
+    width: 33.3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#likes{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-image: url(/Images/like.jpg);
+    background-size: cover;
+    width: 94px;
+    height: 94px;  
+  }
+  #column3 {
+    float: left;
+    width: 33.3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#data{
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-image: url(/Images/cloud-network.jpg);
+    background-size: cover;
+    width: 94px;
+    height: 94px;  
+    
+  }
+  #targets:hover{
+      background-image: url(/Images/target.gif);
+  }
+  #likes:hover{
+    background-image: url(/Images/like.gif);
+  }
+  #data:hover{
+      background-image: url(/Images/cloud-network.gif);
+  }
+  /* Clearfix (clear floats) */
+  #row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #row{
+    padding-top: 85px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+#download:hover{
+  border-color: #444442;
+  background-color: #444442;
+  cursor: pointer;
+}
+#AboutUs{
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#row2{
+  background-color: #7BAD4C;
+  padding-top: 85px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#face-pic{
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  background-size: cover;
+  width: 94px;
+  height: 94px;
+  transition: all 300ms;
+}
+#face-pic:hover{
+  transform: scale(3);
+}
+#row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#row3{
+  background-color: #7BAD4C;
+  padding-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+#row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#column1r3 {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: center;
+  display: flex;
+flex-direction: column;
+}
+#column2r3 {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#column3r3 {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#column4r3 {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#contact{
+  background-color: #313131;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 25px;
+   
+  display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  background-color: #444442;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7BAD4C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #444442;
+  padding: 20px;
+}
+
+#contact-text-above{
+  font-size: 70%;
+  
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+  font-style: normal;
+
+  
+}
+#contact-header-above{
+  margin-bottom: 0px;
+    color: white;
+    font-size: 150%;
+  
+}
+#logo{
+  float: left;
+  width: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  
+}
+#contactform{
+  float: left;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#subject{
+  height: 200px;
+}
